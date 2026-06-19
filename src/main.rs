@@ -8,7 +8,7 @@ use learning_rust_greta::{lessons, run_all};
 fn main() {
     println!();
     println!("Rust Fundamentals");
-    println!("8 lessons with short examples.");
+    println!("14 lessons with short examples.");
     println!();
 
     // Run all lessons
@@ -23,6 +23,12 @@ fn main() {
     // lessons::structs::run();
     // lessons::enums::run();
     // lessons::errors::run();
+    // lessons::traits::run();
+    // lessons::generics::run();
+    // lessons::collections::run();
+    // lessons::iterators::run();
+    // lessons::lifetimes::run();
+    // lessons::testing::run();
 
     lessons::section("Done");
     println!("Next steps:");

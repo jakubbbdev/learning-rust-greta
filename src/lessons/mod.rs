@@ -13,6 +13,12 @@ pub mod ownership;
 pub mod structs;
 pub mod enums;
 pub mod errors;
+pub mod traits;
+pub mod generics;
+pub mod collections;
+pub mod iterators;
+pub mod lifetimes;
+pub mod testing;
 
 use std::io::{self, Write};
 
@@ -26,6 +32,12 @@ pub fn run_all() {
     structs::run();
     enums::run();
     errors::run();
+    traits::run();
+    generics::run();
+    collections::run();
+    iterators::run();
+    lifetimes::run();
+    testing::run();
 }
 
 /// Prints a simple heading between lessons.
